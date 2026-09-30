@@ -28,7 +28,7 @@ jobs:
 
     steps:
       - name: Descargar código
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Instalar Node.js
         uses: actions/setup-node@v4
@@ -58,7 +58,7 @@ jobs:
     steps:
 
       - name: Descargar código
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Preparar carpeta del sitio
         run: |
